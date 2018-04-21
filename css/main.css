@@ -2,32 +2,40 @@ body{
   background: linear-gradient(to right, #2A335F,  #55FFF8);
   font-family: 'Ubuntu', sans-serif;
 }
+
+a{
+  color:#2c4967 !important;
+}
+
 .icon{
   text-decoration: none;
-  color:#fff !important;
   transition: all .3s ease-in-out ;
 }
+
 .icon:hover{
   color: #2A9FB2;
   transform: scale(1.5) ;
 }
-  .container{
+
+.container{
   height: :100vh;
 }
+
 .card{
   background: rgba(255, 255, 255, 0.6);
   margin-top:20px;
 }
+
 .card--center-aligned{
   text-align: center;
   display: flex;
   justify-content: center;
 }
+
 @media (max-width:768px){
   h1{
     font-size: 1.8rem;
   }
-
 }
 
 @media (max-width:480px){
@@ -35,6 +43,7 @@ body{
     font-size: 1.2rem;
   }
 }
+
 .social-icons{
   display: flex;
   margin:0 auto;
@@ -45,9 +54,9 @@ body{
   justify-content: space-between;
   align-items:flex-end;
   background: rgba(255, 255, 255, 0.6);
-
   padding: 30px;
 }
+
 .icon{
   paddiing:20px;
   font-size: 22px;
