@@ -1,5 +1,22 @@
+body{
+  background: linear-gradient(to right, #2A335F,  #55FFF8);
+  font-family: 'Ubuntu', sans-serif;
+}
+.icon{
+  text-decoration: none;
+  color:#fff !important;
+  transition: all .3s ease-in-out ;
+}
+.icon:hover{
+  color: #2A9FB2;
+  transform: scale(1.5) ;
+}
+  .container{
+  height: :100vh;
+}
 .card{
   background: rgba(255, 255, 255, 0.6);
+  margin-top:20px;
 }
 .card--center-aligned{
   text-align: center;
@@ -17,4 +34,21 @@
   h1{
     font-size: 1.2rem;
   }
+}
+.social-icons{
+  display: flex;
+  margin:0 auto;
+  margin-top: 20px;
+  max-width: 50%;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:flex-end;
+  background: rgba(255, 255, 255, 0.6);
+
+  padding: 30px;
+}
+.icon{
+  paddiing:20px;
+  font-size: 22px;
 }
